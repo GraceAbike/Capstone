@@ -114,7 +114,7 @@ img {
   font-family: 'Cocogoose', sans-serif;
 }
 
-/* main {
+main {
   background-image: url(/img/backgrounds/mobile_intro_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -149,7 +149,7 @@ main header {
   padding: 1em;
   margin: 4.5rem 0;
   background-color: var(--tertiary-color);
-} */
+}
 
 /* .date,
 .card-footer-email p {
