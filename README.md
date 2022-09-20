@@ -16,14 +16,13 @@
 Make sure that there are [no linter errors](https://github.com/microverseinc/linters-config).
 Make sure that you used correct [GitHub flow](https://github.com/microverseinc/curriculum-transversal-skills/blob/main/git-github/articles/github_flow.md).
 Make sure that you documented your work [in a professional way](https://github.com/microverseinc/curriculum-transversal-skills/blob/main/documentation/articles/professional_repo_rules.md).
-### For this milestone of portfolio website,
-- I have implement a popup window that includes the project details in both desktop and mobile.
 
-Mobile popup 📱 
-<img width="243" alt="image" src="https://user-images.githubusercontent.com/88346506/189675023-f65a599b-3432-4569-a788-dae6260ad941.png">
+
+<img width="247" alt="image" src="https://user-images.githubusercontent.com/88346506/191383778-fe90978d-d70d-4c83-85e5-ca4ff3364d08.png">  <img width="243" alt="image" src="https://user-images.githubusercontent.com/88346506/191384000-b76aa8d0-570f-4c9d-a2cd-e822b5497784.png">
+
 
 ## Description
-For this repository, I've created html templates and styling files in order to built a responsive portfolio.
+For this repository, I've created html templates and styling files in order to built a responsive Microverse capstone.
 
 ## Built With
 - `HTML`
