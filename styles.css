@@ -1,0 +1,481 @@
+:root {
+  --primary-color: #ec5242;
+  --secondary-color: #272a31;
+  --tertiary-color: #d3d3d3;
+  --white: #fff;
+  --gray-black: #373a41;
+}
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+@font-face {
+  font-family: 'Cocogoose', sans-serif;
+  src: url(Fonts/Cocogoose.otf);
+  font-weight: bold;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* #home {
+  color: var(--primary-color);
+} */
+
+.logo {
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  object-fit: cover;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.burger {
+  margin: 0.5rem 0 0 2.5rem;
+  visibility: visible;
+  cursor: pointer;
+  position: fixed;
+}
+
+.bar .logo {
+  background-color: #481009;
+  visibility: hidden;
+  position: absolute;
+}
+
+.bar-mobile-list {
+    border-radius: 0 70% 130px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to left, var(--primary-color), var(--primary-color));
+    transition: 0.5s ease-in-out;
+    opacity: 1;
+  position: fixed;
+  visibility: hidden;
+}
+
+.X {
+  align-self: flex-end;
+  margin-right: 14rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  width: 15%;
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  font-size: 1.5rem;
+  height: 560px;
+  width: 300px;
+  position: absolute;
+  opacity: 1;
+  padding: 0;
+  visibility: visible;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.bar-mobile-list li a {
+  color: var(--white);
+  font-family: 'Cocogoose', sans-serif;
+}
+
+/* main {
+  background-image: url(/img/backgrounds/mobile_intro_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 9rem 1.6rem 3rem 1.5rem;
+  width: 80vh;
+  margin: 0 auto;
+  min-height: max-content;
+}
+
+main header {
+  color: var(--primary-color);
+}
+
+.card-heading {
+  font-size: 1.3rem;
+  font-weight: 800;
+  background: url(img/backgrounds/maintextimg-bg.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.card-sub {
+  color: var(--primary-color);
+  font-size: 1rem;
+}
+
+.card-text {
+  border: 2px solid var(--white);
+  font-size: 0.8rem;
+  padding: 1em;
+  margin: 4.5rem 0;
+  background-color: var(--tertiary-color);
+} */
+
+/* .date,
+.card-footer-email p {
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 1.2rem;
+}
+
+.venue {
+  font-size: 0.7rem;
+} */
+
+/* .main-program {
+  align-items: center;
+  justify-content: center;
+  background: url(./img/backgrounds/main_section_bg.png) repeat;
+  background-color: var(--secondary-color);
+  color: var(--white);
+  gap: 2rem;
+  padding: 3rem 1rem 4rem 1rem;
+  margin: 0 auto;
+  min-height: max-content;
+  width: 80vh;
+}
+
+.program-heading span,
+.speakers-heading span,
+.partners-heading span {
+  border-bottom: 0.15rem solid var(--primary-color);
+  padding-bottom: 0.7em;
+}
+
+.main-program-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.program-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--gray-black);
+  padding: 1em;
+  background: rgba(255, 255, 255, 0.1);
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  border: 0.15rem solid transparent;
+}
+
+.program-item object {
+  filter: brightness(0) saturate(100%) invert(98%) sepia(0%) saturate(88%) hue-rotate(174deg) brightness(87%) contrast(92%);
+  transition: filter 1s;
+}
+
+.program-item object:hover {
+  filter: brightness(0) saturate(100%) invert(44%) sepia(15%) saturate(5170%) hue-rotate(332deg) brightness(94%) contrast(96%);
+}
+
+.program-item:hover {
+  border-color: var(--white);
+}
+
+.program-item h5 {
+  color: var(--primary-color);
+  font-size: 1rem;
+  width: 10rem;
+  text-align: center;
+}
+
+.program-item p {
+  font-size: 0.8rem;
+  line-height: 2em;
+  flex-shrink: 2;
+}
+
+.main-footer__desktop {
+  visibility: hidden;
+  position: absolute;
+}
+
+.main-footer__mobile {
+  visibility: visible;
+  position: static;
+  background-color: var(--primary-color);
+  padding: 1em;
+  color: var(--white);
+  font-size: 1rem;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.main-footer__mobile:hover {
+  border-color: var(--white);
+} */
+
+
+/* .speakers {
+  gap: 3rem;
+  font-size: 1.5rem;
+  width: 80vh;
+  padding: 3rem 2rem 1rem 1rem;
+  margin: 0 auto;
+}
+
+.speakers-heading {
+  margin: 0 auto;
+}
+
+.speakers-items {
+  display: grid;
+  gap: 1.5rem;
+  padding: 1rem 5rem;
+}
+
+.speaker-image {
+  width: 6rem;
+  height: 6rem;
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+  max-width: 100%;
+}
+
+.speaker-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.speakers-item {
+  justify-content: center;
+  gap: 1rem;
+  background: url(/img/home/empty-chessboard-svgrepo-com.svg) no-repeat;
+  background-size: 4rem;
+  background-position: 3% 1%;
+} */
+
+/* .speaker {
+  gap: 0.7rem;
+  margin-top: 1rem;
+  flex-basis: 70%;
+}
+
+.speaker-name {
+  font-size: 1rem;
+}
+
+.speaker-qualification {
+  color: var(--primary-color);
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-bottom: 0.8rem;
+  
+}
+
+.speaker-about {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+
+.speaker-about span {
+  border-top: 0.1rem solid var(--primary-color);
+  padding-top: 1em;
+} */
+
+/* .partners {
+  margin-top: 2rem;
+  align-items: center;
+  background-color: var(--gray-black);
+  padding: 1em;
+  width: 80vh;
+  padding: 3rem 2rem 1rem 1rem;
+  margin: 0 auto;
+}
+
+.partners-heading {
+  color: var(--tertiary-color);
+}
+
+.partners-body {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  align-content: center;
+}
+
+.footer {
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80vh;
+  padding: 3rem 7rem 3rem 1rem;
+  margin: 0 auto;
+}
+
+.footer img {
+  background-color: var(--primary-color);;
+  width: 70%;
+}
+
+.footer p {
+  font-size: 1rem;
+  margin: -6rem;
+} */
+
+/* about page styles */
+
+/* #about {
+  color: var(--primary-color);
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+main.about {
+  text-align: center;
+}
+
+main.about .card-title {
+  color: var(--primary-color);
+  background-image: none;
+}
+
+.card-footer-contactUs {
+  font-size: 0.7rem;
+} */
+
+/* .about-program {
+  text-align: center;
+  align-items: center;
+  padding: 1.3rem 0 0 0;
+  gap: 2rem;
+  padding: 3rem 1rem 4rem 1rem;
+  margin: 0 auto;
+  min-height: max-content;
+  width: 80vh;
+  border-bottom: 0.1rem solid var(--tertiary-color);
+}
+
+.about-program-heading {
+  line-height: 1.5rem;
+}
+
+.about-program-heading span {
+  border-bottom: 0.15rem solid var(--primary-color);
+  padding-bottom: 0.5em;
+}
+
+.about-program-text {
+  font-size: 0.8rem;
+}
+
+.logo-about {
+  border: 0.1rem solid var(--tertiary-color);
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+
+.logo-about img {
+  background-color: #ec5242;
+}
+
+.about-program-logo {
+  font-family: cocogoose, sans-serif;
+  color: var(--gray-black);
+}
+
+.last-summit-heading span {
+  border-bottom: 0.15rem solid var(--primary-color);
+  padding-bottom: 1.5em;
+}
+
+.last-summit-heading {
+  font-size: 1rem;
+  margin: 5rem 0;
+} */
+
+/* #microverse-annual {
+  padding-top: 7.9rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  margin: 0 auto;
+  min-height: max-content;
+  width: 80vh;
+}
+
+#microverse-annual #annual,
+#microverse-annual #team {
+  height: 60vh;
+  margin: 0 auto;
+  font: 2.4rem var(--lato);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: absolute center;
+}
+
+#microverse-annual h3 {
+  font-size: 1.8rem;
+  margin-top: 1.6rem;
+}
+
+#microverse-annual #annual {
+  background-image:
+    linear-gradient(to bottom, rgba(208, 99, 79, 0.75), rgba(208, 99, 79, 0.75)),
+    url(./img/Mcro.png);
+  margin-bottom: 5rem;
+  width: 80vh;
+  background-position: center right 60%;
+}
+
+#microverse-annual #team {
+  background-image:
+    linear-gradient(to bottom, rgba(208, 99, 79, 0.75), rgba(208, 99, 79, 0.75)),
+    url(./img/Microverse_edtech.jpg);
+    width: 80vh;
+  background-position: center right 25%;
+}
+ */
