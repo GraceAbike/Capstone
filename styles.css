@@ -315,7 +315,7 @@ main header {
   padding-top: 1em;
 }
 
-/* .partners {
+.partners {
   margin-top: 2rem;
   align-items: center;
   background-color: var(--gray-black);
@@ -354,7 +354,7 @@ main header {
 .footer p {
   font-size: 1rem;
   margin: -6rem;
-} */
+}
 
 /* about page styles */
 
