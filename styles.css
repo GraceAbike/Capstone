@@ -287,7 +287,7 @@ main header {
   background-position: 3% 1%;
 }
 
-/* .speaker {
+.speaker {
   gap: 0.7rem;
   margin-top: 1rem;
   flex-basis: 70%;
@@ -313,7 +313,7 @@ main header {
 .speaker-about span {
   border-top: 0.1rem solid var(--primary-color);
   padding-top: 1em;
-} */
+}
 
 /* .partners {
   margin-top: 2rem;
