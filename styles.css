@@ -161,7 +161,7 @@ main header {
   font-size: 0.7rem;
 }
 
-/* .main-program {
+.main-program {
   align-items: center;
   justify-content: center;
   background: url(./img/backgrounds/main_section_bg.png) repeat;
@@ -245,7 +245,7 @@ main header {
 
 .main-footer__mobile:hover {
   border-color: var(--white);
-} */
+}
 
 
 /* .speakers {
