@@ -358,7 +358,7 @@ main header {
 
 /* about page styles */
 
-/* #about {
+#about {
   color: var(--primary-color);
 }
 
@@ -382,7 +382,7 @@ main.about .card-title {
 
 .card-footer-contactUs {
   font-size: 0.7rem;
-} */
+}
 
 /* .about-program {
   text-align: center;
