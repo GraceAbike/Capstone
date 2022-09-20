@@ -248,7 +248,7 @@ main header {
 }
 
 
-/* .speakers {
+.speakers {
   gap: 3rem;
   font-size: 1.5rem;
   width: 80vh;
@@ -285,7 +285,7 @@ main header {
   background: url(/img/home/empty-chessboard-svgrepo-com.svg) no-repeat;
   background-size: 4rem;
   background-position: 3% 1%;
-} */
+}
 
 /* .speaker {
   gap: 0.7rem;
