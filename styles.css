@@ -151,7 +151,7 @@ main header {
   background-color: var(--tertiary-color);
 }
 
-/* .date,
+.date,
 .card-footer-email p {
   font-family: 'Cocogoose', sans-serif;
   font-size: 1.2rem;
@@ -159,7 +159,7 @@ main header {
 
 .venue {
   font-size: 0.7rem;
-} */
+}
 
 /* .main-program {
   align-items: center;
