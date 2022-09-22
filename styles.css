@@ -25,6 +25,7 @@
 }
 
 html {
+  display: grid;
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
@@ -49,8 +50,17 @@ img {
   object-fit: cover;
 }
 
+.desktop-bar-list {
+  visibility: hidden;
+  position: absolute;
+}
+
 .flex-row {
   display: flex;
+}
+
+header {
+  width: 100%;
 }
 
 .flex-column {
@@ -76,7 +86,7 @@ img {
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(to left, var(--primary-color), var(--primary-color));
+  background: var(--primary-color);
   transition: 0.5s ease-in-out;
   opacity: 1;
   visibility: hidden;
@@ -117,37 +127,41 @@ main {
   background-image: url(/img/backgrounds/mobile_intro_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 9rem 1.6rem 3rem 1.5rem;
-  width: 80vh;
-  margin: 0 auto;
-  min-height: max-content;
 }
 
 main header {
   color: var(--primary-color);
 }
 
+.card {
+  text-align: left;
+  align-items: center;
+}
+
 .card-heading {
   font-size: 1.3rem;
   font-weight: 800;
   background: url(img/backgrounds/maintextimg-bg.jpg) no-repeat;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   -webkit-background-clip: text;
   color: transparent;
+  margin: 0.3rem 0 0 3rem;
 }
 
 .card-sub {
   color: var(--primary-color);
   font-size: 1rem;
+  margin: 9rem 0 0.5rem 3rem;
 }
 
 .card-text {
-  border: 2px solid var(--white);
   font-size: 0.8rem;
   padding: 1em;
-  margin: 4.5rem 0;
-  background-color: var(--tertiary-color);
+  text-align: justify;
+  border: 0.2rem solid #e7e7e7;
+  background-color: white;
+  color: var(--color-black);
 }
 
 .date,
@@ -158,6 +172,7 @@ main header {
 
 .venue {
   font-size: 0.7rem;
+  margin: 0.3rem 1rem 3rem 0;
 }
 
 .main-program {
@@ -167,10 +182,7 @@ main header {
   background-color: var(--secondary-color);
   color: var(--white);
   gap: 2rem;
-  padding: 3rem 1rem 4rem 1rem;
-  margin: 0 auto;
-  min-height: max-content;
-  width: 80vh;
+  padding: 2em;
 }
 
 .program-heading span,
@@ -223,12 +235,12 @@ main header {
   flex-shrink: 2;
 }
 
-.main-footer__desktop {
+.main-footer-desktop {
   visibility: hidden;
   position: absolute;
 }
 
-.main-footer__mobile {
+.main-footer-mobile {
   visibility: visible;
   position: static;
   background-color: var(--primary-color);
@@ -239,16 +251,13 @@ main header {
   border: 2px solid transparent;
 }
 
-.main-footer__mobile:hover {
+.main-footer-mobile:hover {
   border-color: var(--white);
 }
 
 .speakers {
   gap: 3rem;
   font-size: 1.5rem;
-  width: 80vh;
-  padding: 3rem 2rem 1rem 1rem;
-  margin: 0 auto;
 }
 
 .speakers-heading {
@@ -313,8 +322,6 @@ main header {
   margin-top: 2rem;
   align-items: center;
   background-color: var(--gray-black);
-  width: 80vh;
-  padding: 3rem 2rem 1rem 1rem;
 }
 
 .partners-heading {
@@ -349,22 +356,28 @@ main header {
 }
 
 /* about page styles */
-
-#about {
-  color: var(--primary-color);
-}
-
 main.about {
   text-align: center;
+  background-image: url(./img/backgrounds/about-bg.png);
+  background-repeat: no-repeat;
+  background-size: 75% auto;
+  background-position-y: 25%;
+  overflow: auto;
+  padding: 45px 25px;
 }
 
-main.about .card-title {
+.about .card-sub {
+  margin-top: 1rem;
+}
+
+.about .card-heading {
   color: var(--primary-color);
-  background-image: none;
+  margin-bottom: 2rem;
 }
 
-.card-footer-contactUs {
-  font-size: 0.7rem;
+.about .card-footer-contactUs {
+  font-size: 1rem;
+  margin: 2rem 0 2rem 17rem;
 }
 
 .about-program {
@@ -421,8 +434,6 @@ main.about .card-title {
   padding-bottom: 5rem;
   text-align: center;
   margin: 0 auto;
-  min-height: max-content;
-  width: 80vh;
 }
 
 #microverse-annual #annual,
@@ -445,17 +456,220 @@ main.about .card-title {
 
 #microverse-annual #annual {
   background-image:
-    linear-gradient(to bottom, rgba(208, 99, 79, 0.75), rgba(208, 99, 79, 0.75)),
+    linear-gradient(rgba(221, 12, 30, 0.75), rgba(202, 19, 31, 0.75)),
     url(./img/Mcro.png);
+  width: 90%;
   margin-bottom: 5rem;
-  width: 80vh;
-  background-position: center right 60%;
+  background-position: center 45%;
 }
 
 #microverse-annual #team {
   background-image:
-    linear-gradient(to bottom, rgba(208, 99, 79, 0.75), rgba(208, 99, 79, 0.75)),
+    linear-gradient(rgba(225, 6, 28, 0.75), rgba(196, 22, 22, 0.75)),
     url(./img/Microverse_edtech.jpg);
-  width: 80vh;
-  background-position: center right 25%;
+  width: 90%;
+  background-position: center 25%;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    display: grid;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .desktop-bar-list {
+    justify-content: flex-end;
+    background-color: var(--secondary-color);
+    align-items: center;
+    gap: 2em;
+    position: static;
+    visibility: visible;
+  }
+
+  .desktop-bar-list li {
+    color: var(--white);
+  }
+
+  .desktop-bar-list li:last-child {
+    margin-right: 6rem;
+  }
+
+  .desktop-bar-list li a {
+    color: var(--color-white);
+  }
+
+  .bar {
+    background-color: var(--white);
+    align-items: center;
+    padding: 1rem;
+    margin: 0 auto;
+    gap: 1.7rem;
+    justify-content: space-around;
+  }
+
+  .bar .logo {
+    visibility: visible;
+    position: static;
+    cursor: pointer;
+  }
+
+  .bar-mobile-list {
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    position: static;
+    font-size: 1rem;
+    visibility: visible;
+    background-color: transparent;
+    height: max-content;
+    width: max-content;
+  }
+
+  #apply {
+    color: var(--primary-color);
+    border: 4px solid var(--primary-color);
+    padding: 0.5em;
+    visibility: visible;
+    position: static;
+  }
+
+  .X {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .bar-mobile-list li a {
+    color: var(--gray-black);
+    font-family: "Lato", sans-serif;
+  }
+
+  /* main {
+    background-image: url(./img/backgrounds/main_big.png);
+    background-repeat: no-repeat;
+  }
+
+  .card-sub {
+    font-size: 1.5rem;
+    margin: 5rem 8rem 0;
+  }
+
+  .card-title {
+    font-size: 2.5rem;
+  }
+
+  .card-heading {
+    font-size: 2rem;
+  }
+
+  .card-text {
+    font-size: 1.5rem;
+    margin: 3rem 18rem 0 8rem;
+  }
+
+  .card-footer {
+    margin-right: 20rem;
+  }
+
+  .date {
+    font-size: 2rem;
+  }
+
+  .venue {
+    font-size: 1rem;
+  } */
+
+  /* .main-program-items {
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+
+  .program-heading {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .program-item {
+    flex-direction: column;
+    height: 20rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .program-item h5 {
+    color: var(--primary-color);
+    font-size: 1rem;
+    flex-basis: 3%;
+  }
+
+  .program-item p {
+    font-size: 0.6rem;
+    line-height: 2em;
+    text-align: center;
+    flex-basis: 33%;
+  }
+
+  .main-footer-desktop {
+    visibility: visible;
+    position: static;
+    color: var(--white);
+    text-decoration: underline;
+  }
+
+  .main-footer-mobile {
+    visibility: hidden;
+    position: absolute;
+  } */
+
+  /* .speakers {
+    padding: 3rem 0;
+  }
+
+  .speakers-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 2rem 7rem;
+  }
+
+  .partners {
+    padding: 4rem;
+  }
+
+  .partners-heading {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  } */
+
+  /* about section */
+  /* main .about {
+    display: flex;
+    background-image: url('./img/backgrounds/about-bg.png');
+    background-size: 100% auto;
+    background-position: center 25%;
+    overflow: auto;
+    height: auto;
+    padding: 65px 75px;
+    width: 100%;
+  }
+
+  main .card-text {
+    display: flex;
+    max-width: 120rem;
+    margin: 1rem 5rem;
+    gap: 1rem;
+  }
+
+  .card-footer-contactUs {
+    font-size: 0.8rem;
+  }
+
+  .conference-container {
+    display: flex;
+    max-width: 120rem;
+    margin: 0 auto;
+    gap: 1rem;
+  } */
 }
