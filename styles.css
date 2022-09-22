@@ -546,7 +546,7 @@ main.about {
     font-family: "Lato", sans-serif;
   }
 
-  /* main {
+  main {
     background-image: url(./img/backgrounds/main_big.png);
     background-repeat: no-repeat;
   }
@@ -579,7 +579,7 @@ main.about {
 
   .venue {
     font-size: 1rem;
-  } */
+  }
 
   /* .main-program-items {
     flex-direction: row;
