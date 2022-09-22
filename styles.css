@@ -644,7 +644,7 @@ main.about {
   }
 
   /* about section */
-  /* main .about {
+  main .about {
     display: flex;
     background-image: url('./img/backgrounds/about-bg.png');
     background-size: 100% auto;
@@ -671,5 +671,5 @@ main.about {
     max-width: 120rem;
     margin: 0 auto;
     gap: 1rem;
-  } */
+  }
 }
