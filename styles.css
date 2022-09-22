@@ -69,7 +69,7 @@ header {
 }
 
 .burger {
-  margin: 0.5rem 0 0 2.5rem;
+  margin: 1rem 0 0 1.6rem;
   visibility: visible;
   cursor: pointer;
   position: fixed;
@@ -126,7 +126,10 @@ header {
 main {
   background-image: url(/img/backgrounds/mobile_intro_bg.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
+  height: auto;
+  text-align: justify;
+  padding: 150px 30px 0 30px;
 }
 
 main header {
@@ -146,18 +149,17 @@ main header {
   background-size: cover;
   -webkit-background-clip: text;
   color: transparent;
-  margin: 0.3rem 0 0 3rem;
+  margin: 0.3rem 0 4rem 0rem;
 }
 
 .card-sub {
   color: var(--primary-color);
   font-size: 1rem;
-  margin: 9rem 0 0.5rem 3rem;
 }
 
 .card-text {
   font-size: 0.8rem;
-  padding: 1em;
+  padding: 1rem;
   text-align: justify;
   border: 0.2rem solid #e7e7e7;
   background-color: white;
@@ -262,6 +264,7 @@ main header {
 
 .speakers-heading {
   margin: 0 auto;
+  margin-top: 3rem;
 }
 
 .speakers-items {
@@ -377,7 +380,7 @@ main.about {
 
 .about .card-footer-contactUs {
   font-size: 1rem;
-  margin: 2rem 0 2rem 17rem;
+  margin: 2rem 0 2rem 0rem;
 }
 
 .about-program {
@@ -549,11 +552,15 @@ main.about {
   main {
     background-image: url(./img/backgrounds/main_big.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 855px;
+    padding: 250px 250px 0 0;
   }
 
   .card-sub {
     font-size: 1.5rem;
-    margin: 5rem 8rem 0;
+    padding: 0 0 0 80px;
   }
 
   .card-title {
@@ -562,15 +569,17 @@ main.about {
 
   .card-heading {
     font-size: 2rem;
+    padding: 0 0 0 80px;
   }
 
   .card-text {
     font-size: 1.5rem;
-    margin: 3rem 18rem 0 8rem;
   }
 
   .card-footer {
-    margin-right: 20rem;
+    font-size: 35px;
+    color: var(--secondary-color);
+    margin: 2px;
   }
 
   .date {
@@ -643,6 +652,11 @@ main.about {
     margin-bottom: 2rem;
   }
 
+  .footer p {
+    font-size: 2rem;
+    margin: -6rem;
+  }
+
   /* about section */
   main .about {
     display: flex;
@@ -660,6 +674,11 @@ main.about {
     max-width: 120rem;
     margin: 1rem 5rem;
     gap: 1rem;
+  }
+
+  .about .card-footer-contactUs {
+    font-size: 1rem;
+    margin: 2rem 18rem 1rem 18rem;
   }
 
   .card-footer-contactUs {
