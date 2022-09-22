@@ -581,7 +581,7 @@ main.about {
     font-size: 1rem;
   }
 
-  /* .main-program-items {
+  .main-program-items {
     flex-direction: row;
     gap: 0.5rem;
   }
@@ -621,7 +621,7 @@ main.about {
   .main-footer-mobile {
     visibility: hidden;
     position: absolute;
-  } */
+  }
 
   /* .speakers {
     padding: 3rem 0;
