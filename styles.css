@@ -125,7 +125,7 @@ header {
 }
 
 main {
-  background-image: url(/img/backgrounds/mobile_intro_bg.png);
+  background-image: url(./img/backgrounds/mobile_intro_bg.png);
   background-repeat: no-repeat;
   background-size: 100%;
   height: auto;
@@ -144,7 +144,7 @@ main header {
 .card-heading {
   font-size: 1.6rem;
   font-weight: 800;
-  background: url(img/backgrounds/maintextimg-bg.jpg) no-repeat;
+  background: url(./img/backgrounds/maintextimg-bg.jpg) no-repeat;
   background-position: center;
   background-size: cover;
   -webkit-background-clip: text;
@@ -288,7 +288,7 @@ main header {
 .speakers-item {
   justify-content: center;
   gap: 1rem;
-  background: url(/img/home/empty-chessboard-svgrepo-com.svg) no-repeat;
+  background: url(./img/home/empty-chessboard-svgrepo-com.svg) no-repeat;
   background-size: 4rem;
   background-position: 3% 1%;
 }
