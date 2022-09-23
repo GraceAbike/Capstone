@@ -47,7 +47,6 @@ const speakersArray = [
   },
 ];
 
-
 const toggleNav = () => {
   hamburgerEl.addEventListener('click', () => {
     barMobileListEl.classList.add('show');
