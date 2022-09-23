@@ -78,9 +78,7 @@ const speaker = () => {
     </div>
   </div>`;
   });
-
   speakers.innerHTML = markup;
 };
-
 toggleNav();
 speaker();
