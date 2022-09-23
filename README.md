@@ -18,7 +18,7 @@ Make sure that you used correct [GitHub flow](https://github.com/microverseinc/c
 Make sure that you documented your work [in a professional way](https://github.com/microverseinc/curriculum-transversal-skills/blob/main/documentation/articles/professional_repo_rules.md).
 
 
-<img width="247" alt="image" src="https://user-images.githubusercontent.com/88346506/191383778-fe90978d-d70d-4c83-85e5-ca4ff3364d08.png">  <img width="243" alt="image" src="https://user-images.githubusercontent.com/88346506/191384000-b76aa8d0-570f-4c9d-a2cd-e822b5497784.png">
+<img alt="image" src="https://user-images.githubusercontent.com/88346506/191383778-fe90978d-d70d-4c83-85e5-ca4ff3364d08.png">  <img alt="image" src="https://user-images.githubusercontent.com/88346506/191384000-b76aa8d0-570f-4c9d-a2cd-e822b5497784.png">
 
 
 ## Description
@@ -29,7 +29,7 @@ For this repository, I've created html templates and styling files in order to b
 - `CSS`
 - `JS`
 - `Git & Github`
-<img width="286" alt="image" src="https://user-images.githubusercontent.com/88346506/191978106-8371549b-99c6-48c5-856a-1657998313cb.png">   <img width="244" alt="image" src="https://user-images.githubusercontent.com/88346506/191979506-46d7a9f5-db8b-4f21-a3c0-d8b580e0469f.png">
+<img alt="image" src="https://user-images.githubusercontent.com/88346506/191978106-8371549b-99c6-48c5-856a-1657998313cb.png">   <img alt="image" src="https://user-images.githubusercontent.com/88346506/191979506-46d7a9f5-db8b-4f21-a3c0-d8b580e0469f.png">
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
@@ -70,7 +70,7 @@ To get a local copy up and running follow these simple example steps.
 - Used objects to store and access data.
 - Communicated technical concepts to other technical people.
 
-<img width="947" alt="image" src="https://user-images.githubusercontent.com/88346506/191987673-002d63e7-937c-4e65-a514-d84351bfcc86.png">      <img width="949" alt="image" src="https://user-images.githubusercontent.com/88346506/191987329-171305e2-860a-4289-a6e9-622b08bdc05f.png">
+<img alt="image" src="https://user-images.githubusercontent.com/88346506/191987673-002d63e7-937c-4e65-a514-d84351bfcc86.png">      <img alt="image" src="https://user-images.githubusercontent.com/88346506/191987329-171305e2-860a-4289-a6e9-622b08bdc05f.png">
 
 ### usege
 - For anyone who wants to practice html5 or/and css3
@@ -93,13 +93,19 @@ Feel free to check the issues page.
 
 Give a ⭐️ if you like this project!
 
+## Credits
+
+**[Cindy Shin](https://www.behance.net/adagio07)** the author of the original design,
+
 ## Acknowledgments
 
-Hat tip to anyone whose code was used.
-- Inspiration 💘
-- Microverse program ⚡
-- All my team 🏹
-- My family's support 🙌
+- [Microverse](https://www.microverse.org/)
+- Code Reviewers
+- Coding Partners
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
 ## 📝 License
 
 This project is [MIT] licensed.
