@@ -29,6 +29,7 @@ For this repository, I've created html templates and styling files in order to b
 - `CSS`
 - `JS`
 - `Git & Github`
+<img width="286" alt="image" src="https://user-images.githubusercontent.com/88346506/191978106-8371549b-99c6-48c5-856a-1657998313cb.png">   <img width="244" alt="image" src="https://user-images.githubusercontent.com/88346506/191979506-46d7a9f5-db8b-4f21-a3c0-d8b580e0469f.png">
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
@@ -69,9 +70,11 @@ To get a local copy up and running follow these simple example steps.
 - Used objects to store and access data.
 - Communicated technical concepts to other technical people.
 
+<img width="947" alt="image" src="https://user-images.githubusercontent.com/88346506/191987673-002d63e7-937c-4e65-a514-d84351bfcc86.png">      <img width="949" alt="image" src="https://user-images.githubusercontent.com/88346506/191987329-171305e2-860a-4289-a6e9-622b08bdc05f.png">
+
 ### usege
 - For anyone who wants to practice html5 or/and css3
-- For anyone who wants to create his own portfolio.
+- For anyone who wants to create his own capstone.
 ## Authors
 
 👤 **Grace Abike**
