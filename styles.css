@@ -578,20 +578,11 @@ main.about {
     margin: 5rem 25rem 0 4rem;
   }
 
-
   .card-footer {
     font-size: 3rem;
     color: var(--secondary-color);
     margin: 3rem 19rem 9rem 1.5rem;
   }
-
-  /* .date {
-    font-size: 2rem;
-  }
-
-  .venue {
-    font-size: 1rem;
-  } */
 
   .main-program-items {
     flex-direction: row;
