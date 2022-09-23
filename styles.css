@@ -340,7 +340,7 @@ main header {
 
 .last-footer {
   font-size: 1rem;
-  padding: 2rem ;
+  padding: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -572,11 +572,6 @@ main.about {
     margin: 5rem 25rem 0 4rem;
   }
 
-  .card {
-    font-size: 3rem;
-    color: var(--secondary-color);
-  }
-
   .main-program-items {
     flex-direction: row;
     gap: 0.5rem;
@@ -628,9 +623,8 @@ main.about {
   }
 
   .last-footer {
-   font-size: 2rem;
-   padding: 4rem 9rem 3rem 5rem;
-    
+    font-size: 2rem;
+    padding: 4rem 9rem 3rem 5rem;
   }
 
   /* .last-footer img {
