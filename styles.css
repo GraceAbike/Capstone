@@ -147,7 +147,7 @@ main header {
   background: url(./img/backgrounds/maintextimg-bg.jpg) no-repeat;
   background-position: center;
   background-size: cover;
-  /* -webkit-background-clip: text; */
+  -webkit-background-clip: text;
   color: transparent;
   margin: 0.3rem 0 4.5rem 0;
 }
