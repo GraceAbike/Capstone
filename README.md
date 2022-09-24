@@ -13,11 +13,6 @@
 
 #### I have implement the following interactions:
 
-Make sure that there are [no linter errors](https://github.com/microverseinc/linters-config).
-Make sure that you used correct [GitHub flow](https://github.com/microverseinc/curriculum-transversal-skills/blob/main/git-github/articles/github_flow.md).
-Make sure that you documented your work [in a professional way](https://github.com/microverseinc/curriculum-transversal-skills/blob/main/documentation/articles/professional_repo_rules.md).
-
-
 <img alt="image" src="https://user-images.githubusercontent.com/88346506/191383778-fe90978d-d70d-4c83-85e5-ca4ff3364d08.png">  <img alt="image" src="https://user-images.githubusercontent.com/88346506/191384000-b76aa8d0-570f-4c9d-a2cd-e822b5497784.png">
 
 
@@ -31,6 +26,7 @@ For this repository, I've created html templates and styling files in order to b
 - `Git & Github`
 <img alt="image" src="https://user-images.githubusercontent.com/88346506/191978106-8371549b-99c6-48c5-856a-1657998313cb.png">   <img alt="image" src="https://user-images.githubusercontent.com/88346506/191979506-46d7a9f5-db8b-4f21-a3c0-d8b580e0469f.png">
 
+[Live Demo Link]( https://graceabike.github.io/Capstone/)
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
 - Create a new GitHub repo.
