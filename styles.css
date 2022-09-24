@@ -626,10 +626,10 @@ main.about {
     font-size: 2rem;
     padding: 4rem 9rem 3rem 5rem;
   }
-}
+
 
 /* about section */
-@media only screen and (min-width: 768px) {
+
   main.about {
     display: grid;
   }
